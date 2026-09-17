@@ -1,8 +1,6 @@
-import { useState } from "react";
 import Cabecalho from "./Cabecalho";
 import Formulario from "./Formulario";
-import ListaBicicletas from "./ListaBike";
-import { Bicicleta } from "./interface";
+import ListaBike from "./ListaBike";
 
 export default function App() {
   return (
