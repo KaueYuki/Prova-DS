@@ -3,7 +3,8 @@ import { BicicletaContext } from "./BicicletaContext";
 import BicicletaCard from "./BicicletaCard";
 
 export default function ListaBike() {
-  const { bicicletas } = useContext(BicicletaContext);
+  const { bicicletas } =
+    useContext(BicicletaContext);
 
   return (
     <section>
